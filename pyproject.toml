@@ -1,0 +1,16 @@
+[project]
+name = "pypb-arch-workstation"
+version = "0.1.0"
+description = "Python environment for developing the pypb.arch_workstation Ansible collection."
+requires-python = ">=3.13"
+dependencies = [
+    "ansible-core>=2.21",
+]
+
+[dependency-groups]
+dev = [
+    "ansible-dev-tools",
+    "ansible-lint",
+    "antsibull-docs",
+    "ruff",
+]

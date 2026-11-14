@@ -1,0 +1,37 @@
+---
+namespace: pypb
+name: arch_workstation
+version: 0.1.0
+readme: README.md
+authors:
+  - pypb <24555025+pypb@users.noreply.github.com>
+description: Roles and playbooks for configuring and maintaining an Arch Linux workstation.
+license:
+  - Apache-2.0
+tags:
+  - archlinux
+  - desktop
+  - linux
+  - workstation
+dependencies:
+  community.general: ">=9.0.0"
+repository: https://github.com/pypb/ansible-collection-arch-workstation
+documentation: https://github.com/pypb/ansible-collection-arch-workstation/blob/main/README.md
+homepage: https://github.com/pypb/ansible-collection-arch-workstation
+issues: https://github.com/pypb/ansible-collection-arch-workstation/issues
+build_ignore:
+  - .ansible
+  - .ansible-lint
+  - .claude
+  - .envrc
+  - .github
+  - .gitignore
+  - .ruff_cache
+  - .venv
+  - .yamllint
+  - CLAUDE.md
+  - extensions
+  - pyproject.toml
+  - uv.lock
+  - "*.tar.gz"
+  - tests/output
